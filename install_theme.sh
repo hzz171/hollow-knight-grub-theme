@@ -27,7 +27,7 @@ theme_path="$grub_path/themes/hollow-grub"
 read -p "[?] Do you want to choose a specific background? [y/N] " -en 1 choose_bg
 if [[ "$choose_bg" =~ y|Y ]]; then
     echo "[INFO] Choosing a background from ./wallpapers/"
-    $SCRIPT_DIR/choose_background.sh
+    $SCRIPT_DIR/theme_selector.sh
 else
     echo "[INFO] [Skipping] Choosing a background"
 fi
