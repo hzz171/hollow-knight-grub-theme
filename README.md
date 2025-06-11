@@ -32,7 +32,7 @@ $ chmod +x install_theme.sh
 $ sudo ./install_theme.sh
 ```
 ## Customization
-If you want to add new backgrounds (the day silksong comes out), just put them in the ```wallpapers/``` directory. After that, run the install script again and choose it when prompted for.
+If you want to add a new background (the day silksong comes out), just put it in the ```wallpapers/``` directory. After that, run the install script again and choose it when prompted for.
 ## Credits
 All the art used here belongs to the game <a href="https://www.hollowknight.com/" target="_blank">Hollow Knight</a>.<br>
 The installation script is a variation of <a href="https://github.com/Lxtharia/minegrub-theme" target="_blank">minegrub</a>'s. 
