@@ -17,7 +17,7 @@
 
 ![screenshot](https://github.com/sergoncano/hollow-knight-grub-theme/blob/master/resources/Showcase.gif)
 ## Installation
-
+Install the files:
 ```bash
 # Clone this repository
 $ git clone https://github.com/sergoncano/hollow-knight-grub-theme.git
@@ -30,6 +30,14 @@ $ chmod +x install_theme.sh
 
 # Run the installer
 $ sudo ./install_theme.sh
+```
+Now set the theme in your grub config (```/etc/default/grub```) by adding (or modifying) the following line:
+```bash
+GRUB_THEME="/boot/grub/themes/hollow-grub/theme.txt"
+```
+Finally reload the GRUB config:
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ## Customization
 If you want to add a new background (the day silksong comes out), just put it in the ```wallpapers/``` directory. After that, run the install script again and choose it when prompted for.
