@@ -39,6 +39,12 @@ Finally reload the GRUB config:
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+<br>
+
+Alternatively, if using **Arch Linux** you can get it from the AUR:
+```bash
+yay -S grub-theme-hollow-knight
+```
 ## Customization
 If you want to add a new background (the day silksong comes out), just put it in the ```wallpapers/``` directory. After that, run the install script again and choose it when prompted for.
 ## Credits
